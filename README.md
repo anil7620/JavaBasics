@@ -65,5 +65,5 @@ In other words, If a subclass provides the specific implementation of the method
 2.  The method must have the same parameter as in the parent class.
 3.  There must be an IS-A relationship (inheritance).
 
- # ## More About Java Interface?
+ # ## More About Method Overriding
  [Click here!](https://www.javatpoint.com/method-overriding-in-java)
