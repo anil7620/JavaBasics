@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-//Question 10 List Collections from concrete class
+//Question 10 List Collections 
 
 public class CollectionsListExample {
 	public static void main(String args[]) {
@@ -22,10 +22,16 @@ public class CollectionsListExample {
 		// Question 12 Sorting the list
 		// The java.Collections.sort() method sorts the list elements by comparing the
 		// ASCII values of the elements.
+		System.out.println("Sorted List");
 		Collections.sort(games);
 		// Traversing list through the for-each loop
 		for (String number : games)
 			System.out.println(number);
+		
+//		Question 13 Using java stream to print list elements
+		System.out.println("Using Stream to print elements");
+		games.stream().forEach((element) -> System.out.println(element));
+
 	}
 
 }
