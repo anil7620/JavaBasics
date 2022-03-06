@@ -99,15 +99,15 @@ public class Employee {
 
 		Employee emp1 = new Employee();
 		emp1.seteId(1);
-		emp1.setEnameString("Gishnavi");
+		emp1.setEnameString("Anil");
 		emp1.setDeptCode("CSE");
-		emp1.setGender("female");
+		emp1.setGender("Male");
 		System.out.println("Emp ID: " + emp1.geteId() + "\nEmp Name is: " + emp1.getEnameString() + "\nEmpDept is: "
 				+ emp1.getDeptCode() + "\nEmp Gender is: " + emp1.getGender());
 		System.out.println("Hascode of " + emp1.geteId() + " is " + emp1.hashCode());
 		System.out.println();
 
-		Employee emp2 = new Employee(2, "Supriya", "It", "Female");
+		Employee emp2 = new Employee(2, "Siva", "It", "Male");
 
 		System.out.println("Emp ID: " + emp2.geteId() + "\nEmp Name is: " + emp2.getEnameString() + "\nEmpDept is: "
 				+ emp2.getDeptCode() + " \nEmp Gender is: " + emp2.getGender());

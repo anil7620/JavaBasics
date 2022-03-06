@@ -78,10 +78,10 @@ public class Employee extends Department implements Person {
 	// main method
 	public static void main(String[] args) {
 //		Objects Of concrete class
-		Employee e1 = new Employee(1, "Gishnavi");
+		Employee e1 = new Employee(1, "Anil");
 		Employee e2 = new Employee();
 		e2.seteId(2);
-		e2.seteNameString("Supriya");
+		e2.seteNameString("Siva");
 		System.out.println("Emp ID: " + e1.geteId() + " Emp Name is: " + e1.geteNameString());
 		System.out.println("Emp ID: " + e2.geteId() + " Emp Name is: " + e2.geteNameString());
 //		Access the abstract methods

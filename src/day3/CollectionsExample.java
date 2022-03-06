@@ -11,13 +11,13 @@ import java.util.Set;
 
 public class CollectionsExample {
 	public static void main(String args[]) {
-		Employee e1 = new Employee(1, "Gishnavi");
-		Employee e2 = new Employee(2, "Supriya");
+		Employee e1 = new Employee(1, "Anil");
+		Employee e2 = new Employee(2, "Rakesh");
 		Employee e3 = new Employee(3, "Siva");
-		Employee e4 = new Employee(4, "Amruta");
-		Employee e5 = new Employee(5, "Deepthi");
-		Employee e6 = new Employee(6, "Dwithi");
-		Employee e7 = new Employee(7, "Jeevani");
+		Employee e4 = new Employee(4, "Jeevan");
+		Employee e5 = new Employee(5, "Amul");
+		Employee e6 = new Employee(6, "Rajesh");
+		Employee e7 = new Employee(7, "Ram");
 
 // 		Collections List
 		List<Employee> employees = new ArrayList<Employee>();
