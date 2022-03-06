@@ -1,4 +1,4 @@
-package day3;
+package unwanted;
 
 //Question 5 Implements methods of interface class in concrete class
 

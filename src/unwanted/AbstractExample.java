@@ -1,4 +1,4 @@
-package day3;
+package unwanted;
 
 //Question3 Add an Abstract class
 abstract class Animal {

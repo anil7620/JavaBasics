@@ -66,7 +66,7 @@ public class Employee {
 	public int hashCode() {
 		return Objects.hash(deptCode, eId, enameString, gender);
 	}
-//    Question 6 - Add method in class for equality check of class Objects
+//  Question 6 - Add method in class for equality check of class Objects
 
 	@Override
 	public boolean equals(Object obj) {
@@ -99,24 +99,24 @@ public class Employee {
 
 		Employee emp1 = new Employee();
 		emp1.seteId(1);
-		emp1.setEnameString("Anil");
+		emp1.setEnameString("Gishnavi");
 		emp1.setDeptCode("CSE");
-		emp1.setGender("Male");
-		System.out.println("Emp ID: " + emp1.geteId() + " Emp Name is: " + emp1.getEnameString() + " EmpDept is: "
-				+ emp1.getDeptCode() + " Emp Gender is: " + emp1.getGender());
+		emp1.setGender("female");
+		System.out.println("Emp ID: " + emp1.geteId() + "\nEmp Name is: " + emp1.getEnameString() + "\nEmpDept is: "
+				+ emp1.getDeptCode() + "\nEmp Gender is: " + emp1.getGender());
 		System.out.println("Hascode of " + emp1.geteId() + " is " + emp1.hashCode());
 		System.out.println();
 
-		Employee emp2 = new Employee(2, "siva", "It", "Male");
+		Employee emp2 = new Employee(2, "Supriya", "It", "Female");
 
-		System.out.println("Emp ID: " + emp2.geteId() + " Emp Name is: " + emp2.getEnameString() + " EmpDept is: "
-				+ emp2.getDeptCode() + " Emp Gender is: " + emp2.getGender());
+		System.out.println("Emp ID: " + emp2.geteId() + "\nEmp Name is: " + emp2.getEnameString() + "\nEmpDept is: "
+				+ emp2.getDeptCode() + " \nEmp Gender is: " + emp2.getGender());
 		System.out.println("Hascode of " + emp2.geteId() + " is " + emp2.hashCode());
 		System.out.println();
 		System.out.println("Both Equal? " + emp1.equals(emp2));
 		System.out.println();
 		emp1.emp(3);
-		emp1.emp(4, "Rakesh");
+		emp1.emp(4, "Jim");
 
 	}
 

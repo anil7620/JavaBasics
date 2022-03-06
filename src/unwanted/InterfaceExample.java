@@ -1,4 +1,4 @@
-package day3;
+package unwanted;
 
 //Question 1 Add an interface
 interface MyInterface {

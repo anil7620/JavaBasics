@@ -1,4 +1,4 @@
-package day3;
+package unwanted;
 
 import java.util.HashMap;
 import java.util.Iterator;
